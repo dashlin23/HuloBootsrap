@@ -1,2 +1,2 @@
 # HuloBootsrap
-This is my bootstrap project showing what i did in my html and css
+This is my bootstrap project showing what I did in my HTML and CSS
