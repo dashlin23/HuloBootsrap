@@ -1,0 +1,30 @@
+body::before {
+   content: '';
+   display: block;
+   background-color: black;
+   height: 100px;
+}
+
+
+  /* Style for the back-to-top button */
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s; /* Add smooth transition for movement */
+}
+
+/* Adjust button position on scroll */
+#back-to-top.active {
+    transform: translateY(-20px); /* Move the button up */
+}
+
+@media (min-width: 768px) {
+    .news-input{
+        width:50%;
+    }
+}
